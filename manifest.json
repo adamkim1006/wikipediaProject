@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Wikipedia Game Cheat",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ]
+
+  }
+  
