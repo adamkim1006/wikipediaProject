@@ -1,10 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Wikipedia Game Cheat",
+    "name": "Wikipedia Game Helper",
     "version": "1.0",
     "permissions": [
-      "activeTab"
-    ]
-
+      "activeTab",
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
   }
   
