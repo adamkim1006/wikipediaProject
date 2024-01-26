@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Game Helper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        #graphContainer {
+            margin-top: 20px;
+            border: 1px solid white;
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        #targetInput {
+            margin-top: 10px;
+            padding: 5px;
+        }
+
+        #startButton {
+            margin-top: 10px;
+            padding: 8px;
+            background-color: blue;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wikipedia Game Helper</h1>
+    <label for="targetInput">Enter Target Wikipedia Page Title:</label>
+    <input type="text" id="targetInput" placeholder="Target Page Title">
+    <button id="startButton">Start Wikipedia Game Helper</button>
+    <div id="graphContainer">
+        <!-- //add somethin -->
+    </div>
+    <script src="inject.js"></script>
+</body>
+</html>

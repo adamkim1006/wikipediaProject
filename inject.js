@@ -1,3 +1,16 @@
+//making start button actually display message
+document.addEventListener("DOMContentLoaded", () => {
+    const graphContainer = document.getElementById("graphContainer");
+    const startButton = document.getElementById("startButton");
+
+    startButton.addEventListener("click", () => {
+        graphContainer.innerHTML = "Under Construction..."
+    });
+});
+
+
+
+
 
 //CLASS GRAPH Constructor
 class Graph {
